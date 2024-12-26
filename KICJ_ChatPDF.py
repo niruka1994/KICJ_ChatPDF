@@ -30,7 +30,6 @@ from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain_community.document_transformers import LongContextReorder
 
 load_dotenv()
-
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 LANGCHAIN_PROJECT = os.environ.get('LANGCHAIN_PROJECT')
 
